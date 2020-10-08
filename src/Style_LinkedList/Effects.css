@@ -1,0 +1,156 @@
+.start {
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 90px;
+    	-fx-min-height: 40px;
+}
+
+.start:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: Green;
+}
+
+.start:pressed {
+  -fx-background-color: #70E500;
+}
+
+.MenuButton {
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 90px;
+	-fx-min-height: 40px;
+}
+
+.MenuButton:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: #179898;
+}
+
+.MenuButton:pressed {
+  -fx-background-color: #00E8E8;
+}
+
+.exit {
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 90px;
+    -fx-min-height: 40px;
+}
+
+.exit:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+	-fx-background-color: red;
+}
+
+.exit:pressed {
+  -fx-background-color: #410202;
+  
+}
+
+
+.addNodeButton {
+	-fx-background-radius: 5em;
+	-fx-background-color: #BFC4BD;
+	-fx-font-weight: bold;
+	-fx-min-width: 30px;
+	-fx-min-height: 30px;
+
+}
+
+
+
+.addNodeButton:hover {
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.addNodeButton:pressed {
+  -fx-background-color: #778571;
+}
+
+
+.menuBackGround {
+	-fx-background-image: url("First_Background.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.MainMenuBackGround {
+	-fx-background-image: url("Main_Menu.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.addNodeBackGround {
+	-fx-background-image: url("addNode.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.SecondMainMenuBackground {
+	-fx-background-image: url("Second_Main_Menu.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.DeleteNodeBackGround {
+	-fx-background-image: url("Delete_Node.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.GetMainIndexCategory {
+	-fx-background-image: url("Get_Main_Category.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.GetSubIndexCategory {
+	-fx-background-image: url("Get_Sub_Index_Category.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.Regroup {
+	-fx-background-image: url("Regroup_BackGround.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.ListGenerator {
+	-fx-background-image: url("List_Generator.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.SizeofSubList {
+	-fx-background-image: url("Get_Sub_Size.jpeg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.mario {
+    -fx-font-family: "Chlorinap";
+    -fx-font-size: 45;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%,repeat,green 0%,yellow 50%);
+}
+
+
+
+
+
+
+
