@@ -24,7 +24,13 @@ Launch GUI_Main_Tester.java
 - Click on setting button to populate the Data with a pre-populate .csv file
 - Quit the JavaFX Application
 
-2. Database
+2. Populate the Database
+---
+- Allows you to populate the Data with your own .csv file
+---
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Populate_Database.jpg" alt="Database Menu" />
+
+3. Database
 <img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Linked_List_Menu_Example.jpg" alt="Database Menu" />
 
 Database Menu to click if you want to:
@@ -63,7 +69,7 @@ Database Menu to click if you want to:
 ---
 
 # you can delete a specific Node to delete
-<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Delete_Node_Example.jpg" alt="Delete Menu" />
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Delete_Node_Example.jpg" alt="Delete any Node Menu" />
 
 7. Get a Node's Category from the Main List
 ---
@@ -71,7 +77,7 @@ Database Menu to click if you want to:
 ---
 
 # You can retreive a Node Category from the main List
-<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Category_Example.jpg" alt="Populate Data Menu" />
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Category_Example.jpg" alt="Get Category Menu" />
 
 8. get a Node's category from the sub-list
 ---
@@ -80,7 +86,7 @@ Database Menu to click if you want to:
 ---
 
 # You can retreive a Node Category from the Sub-List
-<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Sub_Category.jpg" alt="Populate Data Menu" />
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Sub_Category.jpg" alt="Get Sub Category Menu" />
 
 9. Update list to a new Category
 ---
@@ -89,7 +95,7 @@ Database Menu to click if you want to:
 ---
 
 # You can retreive a Node Category from the Sub-List
-<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Regroup_the_List.jpg" alt="Populate Data Menu" />
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Regroup_the_List.jpg" alt="Regrouping Menu" />
 
 10. Get the size of the Main list
 ---
@@ -107,4 +113,11 @@ Database Menu to click if you want to:
 ---
 
 13. View the List
+# List with Node's grouped based on category 1
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/LinkedList_Diagram_Category_1.jpg" alt="List with Category 1" />
 
+# List with Node's grouped based on category 2
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/LinkedList_Diagram_Category_2.jpg" alt="List with Category 2" />
+
+# List with Node's grouped based on category 3
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/LinkedList_Diagram_Category_3.jpg" alt="List with Category 3" />
