@@ -4,6 +4,7 @@ Author: Daniel Ramirez
 - implementing a new version of a linked list.  
 - This is a linked list which has possible sublists descending from each node. 
 - These sublists are used to group together all nodes which share a common category value.  
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/List_W_SubList.JPG" alt="New Linked List"/>
 
 # 🛠 Installation & Set Up
 1. Install the files
@@ -17,9 +18,11 @@ Launch GUI_Main_Tester.java
 
 # Running the JavaFX Application
 1. Main Menu
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Main_Menu.JPG" alt="Main Menu"/>
-Click on the start button to start the JavaFX Application <br>
-Quit the JavaFX Application
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Main_Menu_Example.jpg" alt="Main Menu"/>
+
+- Click on the start button to start the JavaFX Application
+- Click on setting button to populate the Data with a pre-populate .csv file
+- Quit the JavaFX Application
 
 2. Database
 <img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Database_Menu.JPG" alt="Database Menu" />
