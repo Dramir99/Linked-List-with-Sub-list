@@ -25,78 +25,86 @@ Launch GUI_Main_Tester.java
 - Quit the JavaFX Application
 
 2. Database
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Database_Menu.JPG" alt="Database Menu" />
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Linked_List_Menu_Example.jpg" alt="Database Menu" />
 
 Database Menu to click if you want to:
 
-- Find person
-- Compare People
-- Add a person
-- Delete a Person 
-- Populate the Database With a CSV file
+- Add a Node
+- Delete a Node
+- Delete Last Node
+- Delete First Node
+- Delete any Node
+- Get a Node's Category from the Main List
+- Get a Node's Category from the Sub-list
+- Update list to a new category
+- Get the size of the Main List
+- Get the size of the respective Sub-List
+- Clear the List
 
-3. Find Person in the database
+3. Add a Node
 ---
-- Cant search for people who are in different Years
-- if you want to find all the people in the database then you leave first name and last name blank and put the data type to be "Person" and it will return everyone in the database
-- this works for each data type so if you want all Employees you do the same and for Students, Faculty and Staff each leaving their respective text fields blank as well.
-- If you want to search through freshman or sophomore then you leave everything else blank other then the class rank
-- same thing for th other fields depending on what you want to find or if you wan to use all available each works and if you don't find anything it will return with "no one found"
----
-
-# You can see all the different people inside the database
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Find_Person_Type.JPG" alt="Different type of people" />
-
-# You can search a person dynamcially and will return multiple matches
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Student_Example.jpg" alt="Different type of Students" />
-
-# Looking at different Students years
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Find_Person_Student_Example.JPG" alt="Find Student example" />
-
-4. Compare People in the database
----
-- Compares if the two People are the exact same People
-- I only allow you to checkbox at most 2 people 
-- Program will set the visibility to all other checkbox to be false to only force you to compare them
+- Need to type in the three parameters. 
+- These parameters are the values of the categories in a Node.
 ---
 
-# You can Compare two people from the Database
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Compare_Person_Menu.jpg" alt="Compare people example" />
-
-# Example of comparing two people
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Compare_Person_result.jpg" alt="Compare people result" />
-
-5. Add person to the database
+4. Delete Last Node
 ---
-- you will first choose which type of person you would like to add
-- add the texts into the text fields and if you don't put a number into the zip code or phoneNumber or street/apartment number then it will add a label to tell you that the data type is wrong.
-- if you leave the text fields blank a label will appear telling you to fil in something and if the phone number format is wrong then the label wil switch to tell you that the format is wrong.
-- after adding someone you can use the find button to check that your person is added.
+- Allows you to delete the last Node from the List
 ---
 
-# you can choose which type of person to add to the Database
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/add_person_menu.jpg" alt="Add a person menu" />
-
-# Example of adding a student
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/add_student_example.jpg" alt="Add a person example" />
-
-6. delete a person from a database
+5. Delete First Node
 ---
-- you can only delete one person at a time and a label will pop out and tell you who you deleted
-- if you choose to delete more, the option is their but its not fully functional.
+- Allows you to delete the first Node from the List
 ---
 
-# you can select someone from the database to delete
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Delete_Menu.jpg" alt="Delete Menu" />
-
-7. populate the database with a csv
-
+6. Delete Any Node
 ---
-- You will be automatically started in the /src location and then you go into the file to download a "People.csv" file
-- I only allow you to see files that are .csv since that the only file that should be read.
-- the output file works too and it will output the file in .txt format and it will show a label that your stuff is printed or read depending on the option that is selected.
+- method shall delete a specific node from anywhere in the list, given the mainIndex and subIndex.
 ---
 
-# you can dowload a database or write a text file with the given database
-<img src="https://github.com/Dramir99/University-Database/blob/main/University_Database_Example_Images/Populate_database_menu.jpg" alt="Populate Data Menu" />
+# you can delete a specific Node to delete
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Delete_Node_Example.jpg" alt="Delete Menu" />
+
+7. Get a Node's Category from the Main List
+---
+- method shall have an mainIndex, which is an index (starting from 0) which indicates the Node from the main branch you want to retrieve.
+---
+
+# You can retreive a Node Category from the main List
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Category_Example.jpg" alt="Populate Data Menu" />
+
+8. get a Node's category from the sub-list
+---
+- This method shall have an subIndex, which is an index (starting from 0) which indicates the Node from the sub-list of the chosen main branch Node.
+- This method shall have another integer parameter, category, which is a category number (1 - 3) that will indicate which category's value you want to retrieve.
+---
+
+# You can retreive a Node Category from the Sub-List
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Get_Sub_Category.jpg" alt="Populate Data Menu" />
+
+9. Update list to a new Category
+---
+-  regrouping your LinkedList based on the given regrouping category number.
+- Ex: I could take the above list from the diagram, which was initially grouped based on the Genre category (category 1), and I could regroup the list based on the ESRB Rating category (category 3).
+---
+
+# You can retreive a Node Category from the Sub-List
+<img src="https://github.com/Dramir99/Linked-List-with-Sub-list/blob/main/Linked_List_Example/Regroup_the_List.jpg" alt="Populate Data Menu" />
+
+10. Get the size of the Main list
+---
+- return the size of the Main list.
+---
+
+11. Get the size of the Sub-List relative to the Main-List
+---
+- return the size of the sub-list at the given index.
+---
+
+12. Clear the List
+---
+- Allows you to clear the list.
+---
+
+13. View the List
 
