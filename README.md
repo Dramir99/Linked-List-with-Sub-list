@@ -1,2 +1,4 @@
 # Linked-List-with-Sub-list
-Implemented a new version of LinkedList, where it’s possible to have a sub list descending from each node.
+- implementing a new version of a linked list.  
+- This is a linked list which has possible sublists descending from each node. 
+- These sublists are used to group together all nodes which share a common category value.  
