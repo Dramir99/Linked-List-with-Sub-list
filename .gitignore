@@ -1,5 +1,0 @@
-#ignore everything
-*
-!src/
-!src/**
-!.gitignore
